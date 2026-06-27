@@ -1,1 +1,8 @@
 print("    ALEXANDER NEWTOWN       ")
+print(" Bienvenido a la calculadora de la familia Hellsing")
+print("=============================================")
+print("Eliga la operacion que desea realizar: ")
+print("1. Suma")
+print("2. Resta")
+print("3. Multiplicacion")
+print("4. Division")
