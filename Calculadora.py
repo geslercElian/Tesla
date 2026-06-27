@@ -10,14 +10,15 @@ op = str(input("Ingrese la operacion que desea realizar: "))
 n1 = float(input("Ingrese el primer numero: "))
 n2 = float(input("Ingrese el segundo numero: "))
 
-def swich():
+def Olly():
     if op == "1":
         return n1 + n2
     if op == "2":
         return n1 - n2
     if op == "3":
         return n1 * n2
-    
-
+    if op == "4":
+        return n1 / n2
+print("El resultado de la operacion es: ", Olly())
 
 
