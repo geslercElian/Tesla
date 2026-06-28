@@ -13,7 +13,7 @@ n2 = float(input("Ingrese el segundo numero: "))
 def Olly():
     if op == "1":
         return n1 + n2
-    if op == "2":
+    if op == "2":   
         return n1 - n2
     if op == "3":
         return n1 * n2
