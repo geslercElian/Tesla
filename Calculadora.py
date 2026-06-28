@@ -21,4 +21,11 @@ def Olly():
         return n1 / n2
 print("El resultado de la operacion es: ", Olly())
 
-
+if Olly() < 10:
+    print("A ti te toca quedarte con Alexander :)")
+elif Olly() > 10 and Olly() < 20:
+    print("A ti te toca quedarte con Elian :(")
+elif Olly() > 20 and Olly() < 30:
+    print("A ti te toca quedarte con Alucard :)")
+else:
+    print("A ti te toca quedarte con absolutamente nada :)")
