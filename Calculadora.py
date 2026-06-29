@@ -29,3 +29,4 @@ elif Olly() > 20 and Olly() < 30:
     print("A ti te toca quedarte con Alucard :)")
 else:
     print("A ti te toca quedarte con absolutamente nada :)")
+
