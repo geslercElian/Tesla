@@ -7,6 +7,8 @@ lista_de_pw = ["Nirvana", "Paradise", "The Rollings Stone", "Guns n Roses"]
 edad = 18
 
 ctUsuario = int(input("Ingrese su edad para generar una contraseña: "))
-
-
+if ctUsuario >= edad:
+    print("Su contraseña es: ", rd.choice(lista_de_pw))
+else:
+    print("No puede generar una contraseña, su edad es menor a 18 años")
 
